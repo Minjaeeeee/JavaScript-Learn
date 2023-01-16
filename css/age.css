@@ -1,0 +1,27 @@
+body{
+    text-align: center; /* 글자를 중간에 놔둬라 */
+}
+
+.btn{
+    margin-top: 50px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #007bff; 
+    text-align: center;
+    vertical-align: cneter;
+    border: 1px solid blue; /* transparent는 투명하게 만들 수 있는 속성이다*/
+    padding: 5px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.show {
+    margin-top: 50px;
+    padding: 20px 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
